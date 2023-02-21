@@ -3191,8 +3191,8 @@
 // console.log(calc.setNum(2).plus(5).expo(5).getNum());
 
 
-let arr = [1, 8, 5, 7, 2, 3, 0];
+// let arr = [1, 8, 5, 7, 2, 3, 0];
 
-let res = arr.sort((prev, next) => prev - next);
+// let res = arr.sort((prev, next) => prev - next);
 
-console.log(res);
+// console.log(res);
