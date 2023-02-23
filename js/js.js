@@ -3196,3 +3196,120 @@
 // let res = arr.sort((prev, next) => prev - next);
 
 // console.log(res);
+
+
+
+// console.log( NaN || 2 || undefined ); // 2
+
+
+// console.log( NaN && 2 && undefined ); // Nan
+
+
+// console.log( 1 && 2 && 3 ); // 3
+
+
+// console.log( !1 && 2 || !3 ); // no3
+
+
+// console.log( 25 || null && !3 ); // 25
+
+
+// console.log( NaN || null || !3 || undefined || 5); //5
+
+
+// console.log( NaN || null && !3 && undefined || 5); // 5
+
+
+// console.log( 5 === 5 && 3 > 1 || 5); // 5
+
+// function fifthTask() {
+//   const arrayOfNumbers = [];
+
+//   // Пишем решение вот тут
+//   for (let i = 5; i <= 10; i++) {
+//       arrayOfNumbers[i-5] = i;
+//   }
+  
+//   // Не трогаем
+//   return arrayOfNumbers;
+// };
+
+
+
+// function firstTask() {
+//   // Значения массива менять нельзя, тут он проверяется автоматически именно на эти значения
+//   const arr = [3, 5, 8, 16, 20, 23, 50];
+//   const result = [];
+
+//   // Пишем решение вот тут
+  
+//   for (let i = 0; i < arr.length; i++) {
+//     result[i] = arr[i];    
+//   }
+  
+//   // Не трогаем
+//   return result;
+// }
+
+// // Место для второй задачи
+// function secondTask() {
+//   // Значения массива менять нельзя, тут он проверяется автоматически именно на эти значения
+//   const data = [5, 10, 'Shopping', 20, 'Homework'];
+
+//   // Пишем решение вот тут
+  
+//   for (let i = 0; i < data.length; i++) {
+//     if (typeof data[i] === 'string') {
+//       data[i] += ' - done';
+//       continue;
+//     }
+//     data[i] *= 2;
+//   }
+  
+//   // Не трогаем
+//   return data;
+// }
+
+// // Место для третьей задачи
+// function thirdTask() {
+//   // Значения массива менять нельзя, тут он проверяется автоматически именно на эти значения
+//   const data = [5, 10, 'Shopping', 20, 'Homework'];
+//   const result = [];
+
+//   // Пишем решение вот тут
+  
+//   for (let i = 0; i < data.length; i++) {
+//     result[i] = data[data.length - i - 1];
+//   }
+  
+//   // Не трогаем
+//   return result;
+// }
+
+
+// console.log(thirdTask());
+
+// const lines = 5;
+// let result = '';
+// let counterSpace = lines;
+// let counterStar = 1;
+
+// for (let i = 0; i <= lines; i++) {
+  
+//   for (let j = 1; j <= counterSpace; j++) {
+//     result += " ";
+//   }
+
+//   for (let k = 1; k <= counterStar; k++) {
+//     if (k == counterStar) {
+//       result += "*" + '\n';
+//       break;
+//     }
+//     result += "*";
+//   }
+
+//   counterStar += 2;
+//   counterSpace--;
+// }
+
+// console.log(result);

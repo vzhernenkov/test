@@ -1,19 +1,38 @@
-let numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?');
+// let numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?');
 
-let personalMovieDB = {
-  count: numberOfFilms,
-  movies: {},
-  actors: {},
-  genders: [],
-  privat: false,
-};
+// let personalMovieDB = {
+//     count: numberOfFilms,
+//     movies: {},
+//     actors: {},
+//     genders: [],
+//     privat: false,
+//   };
 
-let filmName1 = prompt('Какой фильм вы посмотрели?')
-let filmScore1 = prompt('На сколько оцените его?')
-let filmName2 = prompt('Какой фильм вы посмотрели?')
-let filmScore2 = prompt('На сколько оцените его?')
+// let questions = {
+//   whatFilm: 'Какой фильм вы посмотрели?',
+//   scoreFilm: 'На сколько оцените его?',
+// }
 
-personalMovieDB.movies[`${filmName1}`] = filmScore1;
-personalMovieDB.movies[`${filmName2}`] = filmScore2;
+// if (personalMovieDB['count'] < 10) {
+//   console.log('Вы посмотрели довольно мало фильмов');
+// } else if (personalMovieDB['count'] >= 10 && personalMovieDB['count'] <= 30) {
+//   console.log('Вы классический зритель');
+// } else if (personalMovieDB['count'] > 30) {
+//   console.log('Вы киноман');
+// }
 
-console.log(personalMovieDB);
+
+// asker: for (let i = 0; i < personalMovieDB['count']; i++) {
+//   let filmName = prompt(questions.whatFilm);
+  
+//   if (filmName.length >= 50 || filmName.length == 0) {
+//     console.log ('Ошибка, повторите ввод');
+//     i --;
+//     continue;
+//   }
+//   let filmScore = prompt(questions.scoreFilm);
+
+//   personalMovieDB.movies[filmName] = filmScore;
+// }
+
+// console.log(personalMovieDB);
