@@ -3313,3 +3313,33 @@
 // }
 
 // console.log(result);
+
+// Место для первой задачи
+// function sayHello(name) {
+//  return `Привет, ${name}`;
+// }
+
+// // Место для второй задачи
+// function returnNeighboringNumbers(num) {
+//   let res = [];
+//   res[0] = num - 1;
+//   res[1] = num;
+//   res[2] = num + 1;
+
+//   return res;
+// }
+
+// // Место для третьей задачи
+// function getMathResult(a, b) {
+//   if (b == 0 || b < 0 || typeof b !== "number") return a;
+//   let res = `${a}`;
+
+//   for (let i = 2; i <= b; i++) {
+//     res += `---${a * i}`;
+//   }
+
+//   return res;
+// }
+
+// returnNeighboringNumbers(5);
+
